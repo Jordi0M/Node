@@ -2,7 +2,8 @@ var express = require("express")
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World! <br><a href="/prueba">Caro</a>');
+  res.send('Hello World! <br> \
+  	<a href="/prueba">Caro</a>');
 });
 
 app.get('/prueba', function (req, res) {
